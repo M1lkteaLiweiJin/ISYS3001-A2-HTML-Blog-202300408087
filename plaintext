@@ -1,0 +1,11 @@
+ISYS3001-A2-HTML-Blog-123456/
+├─ index.html          # Blog homepage (article list)
+├─ pages/
+│  ├─ post1.html       # The first test article
+│  ├─ post2.html       # The second test article
+│  └─ about.html       # About Blog Page
+├─ css/
+│  └─ style.css        # Global style file (unified style)
+├─ js/
+│  └─ script.js        # Simple interaction (such as navigation menu and article jump)
+└─ README.md           # Project description (including deployment address and function introduction)

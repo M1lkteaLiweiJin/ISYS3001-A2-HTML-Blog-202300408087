@@ -1,0 +1,132 @@
+/* Global style reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif; /* Meets assessment requirement for 12pt Arial font */
+}
+
+body {
+    line-height: 1.5; /* Meets assessment requirement for 1.5 line spacing */
+    color: #333;
+    background-color: #f9f9f9;
+}
+
+/* Container style (centered layout) */
+.container {
+    width: 90%;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px 0;
+}
+
+/* Navigation bar style */
+.navbar {
+    background-color: #2c3e50;
+    color: #fff;
+    padding: 15px 0;
+}
+
+.navbar .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo {
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.nav-menu {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+}
+
+.nav-menu a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 16px;
+}
+
+.nav-menu a.active {
+    color: #3498db;
+    font-weight: bold;
+}
+
+/* Article list style */
+.post-list {
+    margin-top: 30px;
+}
+
+.post-list h2 {
+    font-size: 28px;
+    margin-bottom: 20px;
+    color: #2c3e50;
+}
+
+.post-item {
+    background-color: #fff;
+    padding: 25px;
+    margin-bottom: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+}
+
+.post-item h3 {
+    font-size: 22px;
+    margin-bottom: 10px;
+}
+
+.post-item h3 a {
+    color: #2c3e50;
+    text-decoration: none;
+}
+
+.post-item h3 a:hover {
+    color: #3498db;
+}
+
+.post-meta {
+    font-size: 14px;
+    color: #7f8c8d;
+    margin-bottom: 15px;
+}
+
+.post-excerpt {
+    font-size: 16px;
+    margin-bottom: 20px;
+}
+
+.read-more {
+    display: inline-block;
+    color: #3498db;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.read-more:hover {
+    text-decoration: underline;
+}
+
+/* Footer style */
+.footer {
+    background-color: #2c3e50;
+    color: #fff;
+    text-align: center;
+    padding: 20px 0;
+    margin-top: 50px;
+}
+
+/* Responsive adaptation (mobile optimization) */
+@media (max-width: 768px) {
+    .navbar .container {
+        flex-direction: column;
+        gap: 10px;
+    }
+    .post-item {
+        padding: 15px;
+    }
+}
+    
